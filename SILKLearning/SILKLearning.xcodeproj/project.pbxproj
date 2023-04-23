@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8DE8B429F5314100230573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8DE8B329F5314100230573 /* Assets.xcassets */; };
+		2B8DE8B829F5314100230573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8DE8B729F5314100230573 /* Preview Assets.xcassets */; };
+		2B8DE8CF29F5323900230573 /* UIPropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8C329F5323900230573 /* UIPropertyController.swift */; };
+		2B8DE8D029F5323900230573 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8C529F5323900230573 /* MainTabBarController.swift */; };
+		2B8DE8D129F5323900230573 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8CA29F5323900230573 /* BaseViewController.swift */; };
+		2B8DE8D229F5323900230573 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8CB29F5323900230573 /* BaseNavigationController.swift */; };
+		2B8DE8D329F5323900230573 /* UIColor+SILK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8CD29F5323900230573 /* UIColor+SILK.swift */; };
+		2B8DE8D429F5323900230573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DE8CE29F5323900230573 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B8DE8AC29F5314000230573 /* SILKLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SILKLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8DE8B329F5314100230573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8DE8B529F5314100230573 /* SILKLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SILKLearning.entitlements; sourceTree = "<group>"; };
+		2B8DE8B729F5314100230573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B8DE8BE29F5323900230573 /* SILKLearning-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SILKLearning-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B8DE8C329F5323900230573 /* UIPropertyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPropertyController.swift; sourceTree = "<group>"; };
+		2B8DE8C529F5323900230573 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2B8DE8CA29F5323900230573 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2B8DE8CB29F5323900230573 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		2B8DE8CD29F5323900230573 /* UIColor+SILK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SILK.swift"; sourceTree = "<group>"; };
+		2B8DE8CE29F5323900230573 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8DE8A929F5314000230573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8DE8A329F5314000230573 = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8AE29F5314000230573 /* SILKLearning */,
+				2B8DE8AD29F5314000230573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8DE8AD29F5314000230573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8AC29F5314000230573 /* SILKLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8DE8AE29F5314000230573 /* SILKLearning */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8CE29F5323900230573 /* AppDelegate.swift */,
+				2B8DE8BF29F5323900230573 /* Classes */,
+				2B8DE8BE29F5323900230573 /* SILKLearning-Bridging-Header.h */,
+				2B8DE8B329F5314100230573 /* Assets.xcassets */,
+				2B8DE8B529F5314100230573 /* SILKLearning.entitlements */,
+				2B8DE8B629F5314100230573 /* Preview Content */,
+			);
+			path = SILKLearning;
+			sourceTree = "<group>";
+		};
+		2B8DE8B629F5314100230573 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8B729F5314100230573 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B8DE8BF29F5323900230573 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C029F5323900230573 /* Core */,
+				2B8DE8C629F5323900230573 /* Dev */,
+				2B8DE8C729F5323900230573 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2B8DE8C029F5323900230573 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C129F5323900230573 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2B8DE8C129F5323900230573 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C529F5323900230573 /* MainTabBarController.swift */,
+				2B8DE8C229F5323900230573 /* UIProperty */,
+				2B8DE8C429F5323900230573 /* CombinativeStyle */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B8DE8C229F5323900230573 /* UIProperty */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C329F5323900230573 /* UIPropertyController.swift */,
+			);
+			path = UIProperty;
+			sourceTree = "<group>";
+		};
+		2B8DE8C429F5323900230573 /* CombinativeStyle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CombinativeStyle;
+			sourceTree = "<group>";
+		};
+		2B8DE8C629F5323900230573 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		2B8DE8C729F5323900230573 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C829F5323900230573 /* UIElement */,
+				2B8DE8CC29F5323900230573 /* Category */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2B8DE8C829F5323900230573 /* UIElement */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8C929F5323900230573 /* Controller */,
+			);
+			path = UIElement;
+			sourceTree = "<group>";
+		};
+		2B8DE8C929F5323900230573 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8CA29F5323900230573 /* BaseViewController.swift */,
+				2B8DE8CB29F5323900230573 /* BaseNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B8DE8CC29F5323900230573 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DE8CD29F5323900230573 /* UIColor+SILK.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8DE8AB29F5314000230573 /* SILKLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8DE8BB29F5314100230573 /* Build configuration list for PBXNativeTarget "SILKLearning" */;
+			buildPhases = (
+				2B8DE8A829F5314000230573 /* Sources */,
+				2B8DE8A929F5314000230573 /* Frameworks */,
+				2B8DE8AA29F5314000230573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SILKLearning;
+			productName = SILKLearning;
+			productReference = 2B8DE8AC29F5314000230573 /* SILKLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8DE8A429F5314000230573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2B8DE8AB29F5314000230573 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B8DE8A729F5314000230573 /* Build configuration list for PBXProject "SILKLearning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8DE8A329F5314000230573;
+			productRefGroup = 2B8DE8AD29F5314000230573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8DE8AB29F5314000230573 /* SILKLearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8DE8AA29F5314000230573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DE8B829F5314100230573 /* Preview Assets.xcassets in Resources */,
+				2B8DE8B429F5314100230573 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8DE8A829F5314000230573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DE8D429F5323900230573 /* AppDelegate.swift in Sources */,
+				2B8DE8D129F5323900230573 /* BaseViewController.swift in Sources */,
+				2B8DE8D229F5323900230573 /* BaseNavigationController.swift in Sources */,
+				2B8DE8CF29F5323900230573 /* UIPropertyController.swift in Sources */,
+				2B8DE8D029F5323900230573 /* MainTabBarController.swift in Sources */,
+				2B8DE8D329F5323900230573 /* UIColor+SILK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B8DE8B929F5314100230573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8DE8BA29F5314100230573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B8DE8BC29F5314100230573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SILKLearning/SILKLearning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SILKLearning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangqian.SILKLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B8DE8BD29F5314100230573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SILKLearning/SILKLearning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SILKLearning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangqian.SILKLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8DE8A729F5314000230573 /* Build configuration list for PBXProject "SILKLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DE8B929F5314100230573 /* Debug */,
+				2B8DE8BA29F5314100230573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8DE8BB29F5314100230573 /* Build configuration list for PBXNativeTarget "SILKLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DE8BC29F5314100230573 /* Debug */,
+				2B8DE8BD29F5314100230573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8DE8A429F5314000230573 /* Project object */;
+}
