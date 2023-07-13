@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 创建window
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
-        self.window?.rootViewController = UINavigationController(rootViewController: MainTabBarController())
+        self.window?.rootViewController = MainTabBarController()
         self.window?.makeKeyAndVisible()
         
         return true

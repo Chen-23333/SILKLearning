@@ -9,4 +9,20 @@ import UIKit
 
 class UIPropertyController: BaseViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationItem.title = "元素属性"
+        self.setupViews()
+    }
+    
+    private func setupViews() {
+        
+        updateSubviewsLayout()
+    }
+    
+    private func updateSubviewsLayout() {
+       
+    }
+    
 }

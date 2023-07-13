@@ -34,22 +34,22 @@ class MainTabBarController: UITabBarController {
     
     // MARK: - sub tab bar
     func setupSubTabBar() {
-        // 功能测试
-        let functionTestNavVC = BaseNavigationController(rootViewController: BaseViewController())
-        functionTestNavVC.tabBarItem.title = "元素属性"
-        functionTestNavVC.isStatusBarHidden = false
-        self.addChild(functionTestNavVC)
+        // 开发测试
+        let developNavVC = BaseNavigationController(rootViewController: SceneController())
+        developNavVC.tabBarItem.title = "开发测试"
+        developNavVC.isStatusBarHidden = false
+        self.addChild(developNavVC)
         
-        // 基础信息
-        let basicInfoNavVC = BaseNavigationController(rootViewController: BaseViewController())
-        basicInfoNavVC.tabBarItem.title = "组合样式"
-        basicInfoNavVC.isStatusBarHidden = false
-        self.addChild(basicInfoNavVC)
+        // 元素属性
+        let propertyNavVC = BaseNavigationController(rootViewController: UIPropertyController())
+        propertyNavVC.tabBarItem.title = "元素属性\n预览"
+        propertyNavVC.isStatusBarHidden = false
+        self.addChild(propertyNavVC)
         
-        // 通用功能
-        let commonFunctionNavVC = BaseNavigationController(rootViewController: BaseViewController())
-        commonFunctionNavVC.tabBarItem.title = "测试"
-        commonFunctionNavVC.isStatusBarHidden = false
-        self.addChild(commonFunctionNavVC)
+        // 组合样式
+        let styleNavVC = BaseNavigationController(rootViewController: BaseViewController())
+        styleNavVC.tabBarItem.title = "组合样式\n预览"
+        styleNavVC.isStatusBarHidden = false
+        self.addChild(styleNavVC)
     }
 }
